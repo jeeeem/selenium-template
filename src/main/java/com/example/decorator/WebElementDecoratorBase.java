@@ -1,6 +1,5 @@
 package com.example.decorator;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 public abstract class WebElementDecoratorBase implements WebElementDecorator {
