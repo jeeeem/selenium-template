@@ -1,11 +1,11 @@
 {
-  "uid" : "d9f70816e7038428",
+  "uid" : "1752b5c4ed75f6c2",
   "name" : "loginWithDependency",
   "fullName" : "com.example.LoginTest.loginWithDependency",
   "historyId" : "cdda91fda22accf64aad37f558e70439",
   "time" : {
-    "start" : 1753913365125,
-    "stop" : 1753913365126,
+    "start" : 1753914038798,
+    "stop" : 1753914038799,
     "duration" : 1
   },
   "description" : "Login with dependency",
@@ -18,33 +18,33 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1753913363984,
-      "stop" : 1753913364732,
-      "duration" : 748
+      "start" : 1753914037612,
+      "stop" : 1753914038416,
+      "duration" : 804
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ {
       "name" : "Navigate to saucedemo site",
       "time" : {
-        "start" : 1753913364371,
-        "stop" : 1753913364731,
-        "duration" : 360
+        "start" : 1753914038006,
+        "stop" : 1753914038416,
+        "duration" : 410
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Screenshot",
         "time" : {
-          "start" : 1753913364605,
-          "stop" : 1753913364731,
-          "duration" : 126
+          "start" : 1753914038244,
+          "stop" : 1753914038416,
+          "duration" : 172
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ {
-          "uid" : "52c9d4c7742e2c63",
+          "uid" : "faee8124cf1731e5",
           "name" : "Screenshot",
-          "source" : "52c9d4c7742e2c63.png",
+          "source" : "faee8124cf1731e5.png",
           "type" : "image/png",
           "size" : 31750
         } ],
@@ -71,8 +71,8 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1753913365126,
-      "stop" : 1753913365201,
+      "start" : 1753914038800,
+      "stop" : 1753914038875,
       "duration" : 75
     },
     "description" : "",
@@ -108,7 +108,7 @@
     "value" : "pkrvmjbmru5nbw0"
   }, {
     "name" : "thread",
-    "value" : "4001@pkrvmjbmru5nbw0.main(1)"
+    "value" : "3967@pkrvmjbmru5nbw0.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -132,6 +132,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d9f70816e7038428.json",
+  "source" : "1752b5c4ed75f6c2.json",
   "parameterValues" : [ ]
 }

@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2ff2512d6e82c0b5",
+      "uid" : "70646e5e3a1fdcd4",
       "status" : "passed",
       "time" : {
-        "start" : 1753913364877,
-        "stop" : 1753913365120,
-        "duration" : 243
+        "start" : 1753914038555,
+        "stop" : 1753914038792,
+        "duration" : 237
       }
     } ]
   },
@@ -28,13 +28,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "16d683408132ce10",
+      "uid" : "861a50383300ad8d",
       "status" : "failed",
       "statusDetails" : "[Verify Page Title] \nexpected: \"Swag1 Labs\"\n but was: \"Swag Labs\"",
       "time" : {
-        "start" : 1753913364737,
-        "stop" : 1753913364871,
-        "duration" : 134
+        "start" : 1753914038421,
+        "stop" : 1753914038547,
+        "duration" : 126
       }
     } ]
   },
@@ -48,13 +48,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6b1524d32f6a5148",
+      "uid" : "399bc79d257c5f2d",
       "status" : "failed",
       "statusDetails" : "[Verify Page Title] \nexpected: \"Swag1 Labs\"\n but was: \"Swag Labs\"",
       "time" : {
-        "start" : 1753913363737,
-        "stop" : 1753913363890,
-        "duration" : 153
+        "start" : 1753914037355,
+        "stop" : 1753914037515,
+        "duration" : 160
       }
     } ]
   },
@@ -68,12 +68,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d9f70816e7038428",
+      "uid" : "1752b5c4ed75f6c2",
       "status" : "skipped",
       "statusDetails" : "Method com.example.LoginTest.loginWithDependency() on instance com.example.LoginTest@698122b2 depends on not successfully finished methods \n[com.example.BaseTest.verifyPage() on instance com.example.LoginTest@698122b2\ncom.example.BaseTest.verifyPage() on instance com.example.BaseTest@2a2c13a8]",
       "time" : {
-        "start" : 1753913365125,
-        "stop" : 1753913365126,
+        "start" : 1753914038798,
+        "stop" : 1753914038799,
         "duration" : 1
       }
     } ]

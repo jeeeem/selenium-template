@@ -1,12 +1,12 @@
 {
-  "uid" : "6b1524d32f6a5148",
+  "uid" : "861a50383300ad8d",
   "name" : "verifyPage",
   "fullName" : "com.example.BaseTest.verifyPage",
-  "historyId" : "e142fba8c9c72d0a16d08678273d1897",
+  "historyId" : "16071a6bcbeb72520de5301fc6dc2b0b",
   "time" : {
-    "start" : 1753913363737,
-    "stop" : 1753913363890,
-    "duration" : 153
+    "start" : 1753914038421,
+    "stop" : 1753914038547,
+    "duration" : 126
   },
   "description" : "Verify Login title",
   "descriptionHtml" : "<p>Verify Login title</p>\n",
@@ -18,9 +18,9 @@
   "beforeStages" : [ {
     "name" : "logSetup",
     "time" : {
-      "start" : 1753913363673,
-      "stop" : 1753913363678,
-      "duration" : 5
+      "start" : 1753914038417,
+      "stop" : 1753914038419,
+      "duration" : 2
     },
     "description" : "",
     "status" : "passed",
@@ -34,33 +34,33 @@
   }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1753913360958,
-      "stop" : 1753913363666,
-      "duration" : 2708
+      "start" : 1753914037612,
+      "stop" : 1753914038416,
+      "duration" : 804
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ {
       "name" : "Navigate to saucedemo site",
       "time" : {
-        "start" : 1753913363220,
-        "stop" : 1753913363665,
-        "duration" : 445
+        "start" : 1753914038006,
+        "stop" : 1753914038416,
+        "duration" : 410
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Screenshot",
         "time" : {
-          "start" : 1753913363494,
-          "stop" : 1753913363665,
-          "duration" : 171
+          "start" : 1753914038244,
+          "stop" : 1753914038416,
+          "duration" : 172
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ {
-          "uid" : "ebf87962c456ceb9",
+          "uid" : "faee8124cf1731e5",
           "name" : "Screenshot",
-          "source" : "ebf87962c456ceb9.png",
+          "source" : "faee8124cf1731e5.png",
           "type" : "image/png",
           "size" : 31750
         } ],
@@ -92,16 +92,16 @@
     "steps" : [ {
       "name" : "Failure Screenshot",
       "time" : {
-        "start" : 1753913363783,
-        "stop" : 1753913363887,
-        "duration" : 104
+        "start" : 1753914038429,
+        "stop" : 1753914038546,
+        "duration" : 117
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "cc5439ea4a64696c",
+        "uid" : "ac77cd4fa52fee89",
         "name" : "Screenshot",
-        "source" : "cc5439ea4a64696c.png",
+        "source" : "ac77cd4fa52fee89.png",
         "type" : "image/png",
         "size" : 31750
       } ],
@@ -112,9 +112,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "ab4a7edfde0c91ee",
+      "uid" : "ca6d0ce0c7fe6ad7",
       "name" : "Stacktrace",
-      "source" : "ab4a7edfde0c91ee.txt",
+      "source" : "ca6d0ce0c7fe6ad7.txt",
       "type" : "text/plain",
       "size" : 2667
     } ],
@@ -127,17 +127,17 @@
   "afterStages" : [ {
     "name" : "attachmentLog",
     "time" : {
-      "start" : 1753913363898,
-      "stop" : 1753913363899,
-      "duration" : 1
+      "start" : 1753914038549,
+      "stop" : 1753914038549,
+      "duration" : 0
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "bc7f6cb046d8a66e",
-      "name" : "verifyPage_20250730_220923",
-      "source" : "bc7f6cb046d8a66e.log",
+      "uid" : "65027dcf74308479",
+      "name" : "verifyPage_20250730_222038",
+      "source" : "65027dcf74308479.log",
       "type" : "text/plain",
       "size" : 3024
     } ],
@@ -149,9 +149,9 @@
   }, {
     "name" : "tearDown",
     "time" : {
-      "start" : 1753913363900,
-      "stop" : 1753913363983,
-      "duration" : 83
+      "start" : 1753914038800,
+      "stop" : 1753914038875,
+      "duration" : 75
     },
     "description" : "",
     "status" : "passed",
@@ -165,10 +165,10 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "com.example.BaseTest"
+    "value" : "com.example.LoginTest"
   }, {
     "name" : "testClass",
-    "value" : "com.example.BaseTest"
+    "value" : "com.example.LoginTest"
   }, {
     "name" : "testMethod",
     "value" : "verifyPage"
@@ -180,13 +180,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "com.example.BaseTest"
+    "value" : "com.example.LoginTest"
   }, {
     "name" : "host",
     "value" : "pkrvmjbmru5nbw0"
   }, {
     "name" : "thread",
-    "value" : "4001@pkrvmjbmru5nbw0.main(1)"
+    "value" : "3967@pkrvmjbmru5nbw0.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -211,6 +211,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "6b1524d32f6a5148.json",
+  "source" : "861a50383300ad8d.json",
   "parameterValues" : [ ]
 }
