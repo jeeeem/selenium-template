@@ -41,6 +41,7 @@
     <log4j.version>2.25.1</log4j.version>
     <assertj.version>3.27.3</assertj.version>
     <allure.version>2.29.1</allure.version>
+    <webdrivermanager.version>6.2.0</webdrivermanager.version>
   </properties>
 
   <dependencyManagement>
@@ -57,6 +58,13 @@
   </dependencyManagement>
 
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+    <dependency>
+      <groupId>io.github.bonigarcia</groupId>
+      <artifactId>webdrivermanager</artifactId>
+      <version>${webdrivermanager.version}</version>
+    </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>

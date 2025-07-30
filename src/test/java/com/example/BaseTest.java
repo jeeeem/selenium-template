@@ -4,11 +4,13 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.UUID;
 
 import org.apache.logging.log4j.ThreadContext;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.ITestResult;
@@ -23,6 +25,7 @@ import com.example.listeners.ScreenshotOnFailureListener;
 import com.example.utils.AllureUtils;
 import com.example.utils.LoggerConfig;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Description;
 import io.qameta.allure.testng.AllureTestNg;
@@ -30,7 +33,6 @@ import io.qameta.allure.testng.AllureTestNg;
 @Listeners({ AllureTestNg.class, ScreenshotOnFailureListener.class })
 public class BaseTest {
   private static final Logger log = LoggerFactory.getLogger(BaseTest.class);
-  private Dimension targetSize = new Dimension(1920, 1080);
   private String url = "https://www.saucedemo.com/";
   protected WebDriver driver;
   protected String logFileName;
@@ -38,9 +40,20 @@ public class BaseTest {
   @BeforeClass
   public void setUp() {
     LoggerConfig.setup();
-    driver = new ChromeDriver();
-    driver.manage().window().setSize(targetSize);
+    WebDriverManager.chromedriver().setup();
+    ChromeOptions options = new ChromeOptions();
+    boolean isHeadless = Boolean.parseBoolean(System.getProperty("headless", "false"));
+    if (isHeadless) {
+      options.addArguments("--headless=new"); // use "--headless=new" for Chrome 109+, or "--headless"
+      options.addArguments("--disable-gpu");
+      options.addArguments("--window-size=1920,1080"); // useful for consistent screenshots
+      options.addArguments("--no-sandbox"); // required in many CI/CD Linux environments
+      options.addArguments("--disable-dev-shm-usage"); // fix shared memory issues
+      options.addArguments("--disable-gpu"); // optional but common
+      options.addArguments("--user-data-dir=/tmp/chrome-" + UUID.randomUUID()); // isolate profile
+    }
 
+    driver = new ChromeDriver(options);
     Allure.step("Navigate to saucedemo site", () -> {
       log.info("Navigating to: {}", url);
       driver.get(url);
