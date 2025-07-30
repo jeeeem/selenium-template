@@ -13,6 +13,11 @@
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <selenium.version>4.34.0</selenium.version>
+    <testng.version>7.11.0</testng.version>
+    <testng.version>7.11.0</testng.version>
+    <allure.version>2.29.1</allure.version>
+
   </properties>
 
   <dependencies>
@@ -20,15 +25,35 @@
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
-      <version>4.34.0</version>
+      <version>${selenium.version}</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.testng/testng -->
     <dependency>
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
-      <version>7.11.0</version>
-      <scope>test</scope>
+      <version>${testng.version}</version>
     </dependency>
+
+    <!-- SLF4J API -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.17</version> <!-- replace with latest -->
+    </dependency>
+
+    <!-- Logback Classic: the actual provider / implementation -->
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.5.18</version> <!-- replace with latest -->
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+    <!-- <dependency> -->
+    <!--   <groupId>io.qameta.allure</groupId> -->
+    <!--   <artifactId>allure-testng</artifactId> -->
+    <!--   <version>2.29.1</version> -->
+    <!-- </dependency> -->
   </dependencies>
 </project>
