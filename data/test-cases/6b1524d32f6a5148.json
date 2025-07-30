@@ -1,12 +1,12 @@
 {
-  "uid" : "62cbce9ccfdfd9c0",
+  "uid" : "6b1524d32f6a5148",
   "name" : "verifyPage",
   "fullName" : "com.example.BaseTest.verifyPage",
   "historyId" : "e142fba8c9c72d0a16d08678273d1897",
   "time" : {
-    "start" : 1753913045559,
-    "stop" : 1753913045729,
-    "duration" : 170
+    "start" : 1753913363737,
+    "stop" : 1753913363890,
+    "duration" : 153
   },
   "description" : "Verify Login title",
   "descriptionHtml" : "<p>Verify Login title</p>\n",
@@ -18,9 +18,9 @@
   "beforeStages" : [ {
     "name" : "logSetup",
     "time" : {
-      "start" : 1753913045499,
-      "stop" : 1753913045503,
-      "duration" : 4
+      "start" : 1753913363673,
+      "stop" : 1753913363678,
+      "duration" : 5
     },
     "description" : "",
     "status" : "passed",
@@ -34,33 +34,33 @@
   }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1753913042631,
-      "stop" : 1753913045492,
-      "duration" : 2861
+      "start" : 1753913360958,
+      "stop" : 1753913363666,
+      "duration" : 2708
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ {
       "name" : "Navigate to saucedemo site",
       "time" : {
-        "start" : 1753913044993,
-        "stop" : 1753913045492,
-        "duration" : 499
+        "start" : 1753913363220,
+        "stop" : 1753913363665,
+        "duration" : 445
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Screenshot",
         "time" : {
-          "start" : 1753913045363,
-          "stop" : 1753913045491,
-          "duration" : 128
+          "start" : 1753913363494,
+          "stop" : 1753913363665,
+          "duration" : 171
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ {
-          "uid" : "9fde015afa46cd70",
+          "uid" : "ebf87962c456ceb9",
           "name" : "Screenshot",
-          "source" : "9fde015afa46cd70.png",
+          "source" : "ebf87962c456ceb9.png",
           "type" : "image/png",
           "size" : 31750
         } ],
@@ -92,16 +92,16 @@
     "steps" : [ {
       "name" : "Failure Screenshot",
       "time" : {
-        "start" : 1753913045602,
-        "stop" : 1753913045726,
-        "duration" : 124
+        "start" : 1753913363783,
+        "stop" : 1753913363887,
+        "duration" : 104
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "8abd1f52b8cfd5c",
+        "uid" : "cc5439ea4a64696c",
         "name" : "Screenshot",
-        "source" : "8abd1f52b8cfd5c.png",
+        "source" : "cc5439ea4a64696c.png",
         "type" : "image/png",
         "size" : 31750
       } ],
@@ -112,9 +112,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "c2a206eefddf686a",
+      "uid" : "ab4a7edfde0c91ee",
       "name" : "Stacktrace",
-      "source" : "c2a206eefddf686a.txt",
+      "source" : "ab4a7edfde0c91ee.txt",
       "type" : "text/plain",
       "size" : 2667
     } ],
@@ -125,11 +125,33 @@
     "hasContent" : true
   },
   "afterStages" : [ {
+    "name" : "attachmentLog",
+    "time" : {
+      "start" : 1753913363898,
+      "stop" : 1753913363899,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bc7f6cb046d8a66e",
+      "name" : "verifyPage_20250730_220923",
+      "source" : "bc7f6cb046d8a66e.log",
+      "type" : "text/plain",
+      "size" : 3024
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
     "name" : "tearDown",
     "time" : {
-      "start" : 1753913045740,
-      "stop" : 1753913045824,
-      "duration" : 84
+      "start" : 1753913363900,
+      "stop" : 1753913363983,
+      "duration" : 83
     },
     "description" : "",
     "status" : "passed",
@@ -140,28 +162,6 @@
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : false
-  }, {
-    "name" : "attachmentLog",
-    "time" : {
-      "start" : 1753913045738,
-      "stop" : 1753913045738,
-      "duration" : 0
-    },
-    "description" : "",
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ {
-      "uid" : "f2fcce661baf6f97",
-      "name" : "verifyPage_20250730_220405",
-      "source" : "f2fcce661baf6f97.log",
-      "type" : "text/plain",
-      "size" : 3024
-    } ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
-    "hasContent" : true
   } ],
   "labels" : [ {
     "name" : "package",
@@ -186,7 +186,7 @@
     "value" : "pkrvmjbmru5nbw0"
   }, {
     "name" : "thread",
-    "value" : "3965@pkrvmjbmru5nbw0.main(1)"
+    "value" : "4001@pkrvmjbmru5nbw0.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -211,6 +211,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "62cbce9ccfdfd9c0.json",
+  "source" : "6b1524d32f6a5148.json",
   "parameterValues" : [ ]
 }

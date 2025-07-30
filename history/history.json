@@ -1,24 +1,4 @@
 {
-  "16071a6bcbeb72520de5301fc6dc2b0b" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e13fcb73afb993d6",
-      "status" : "failed",
-      "statusDetails" : "[Verify Page Title] \nexpected: \"Swag1 Labs\"\n but was: \"Swag Labs\"",
-      "time" : {
-        "start" : 1753913046641,
-        "stop" : 1753913046777,
-        "duration" : 136
-      }
-    } ]
-  },
   "b5a2ae1facd312a4fa7d02ce075de4a2" : {
     "statistic" : {
       "failed" : 0,
@@ -29,12 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d50008c7ed79f856",
+      "uid" : "2ff2512d6e82c0b5",
       "status" : "passed",
       "time" : {
-        "start" : 1753913046784,
-        "stop" : 1753913047028,
-        "duration" : 244
+        "start" : 1753913364877,
+        "stop" : 1753913365120,
+        "duration" : 243
+      }
+    } ]
+  },
+  "16071a6bcbeb72520de5301fc6dc2b0b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "16d683408132ce10",
+      "status" : "failed",
+      "statusDetails" : "[Verify Page Title] \nexpected: \"Swag1 Labs\"\n but was: \"Swag Labs\"",
+      "time" : {
+        "start" : 1753913364737,
+        "stop" : 1753913364871,
+        "duration" : 134
       }
     } ]
   },
@@ -48,13 +48,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "62cbce9ccfdfd9c0",
+      "uid" : "6b1524d32f6a5148",
       "status" : "failed",
       "statusDetails" : "[Verify Page Title] \nexpected: \"Swag1 Labs\"\n but was: \"Swag Labs\"",
       "time" : {
-        "start" : 1753913045559,
-        "stop" : 1753913045729,
-        "duration" : 170
+        "start" : 1753913363737,
+        "stop" : 1753913363890,
+        "duration" : 153
       }
     } ]
   },
@@ -68,12 +68,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b95d78fff23100d0",
+      "uid" : "d9f70816e7038428",
       "status" : "skipped",
       "statusDetails" : "Method com.example.LoginTest.loginWithDependency() on instance com.example.LoginTest@698122b2 depends on not successfully finished methods \n[com.example.BaseTest.verifyPage() on instance com.example.LoginTest@698122b2\ncom.example.BaseTest.verifyPage() on instance com.example.BaseTest@2a2c13a8]",
       "time" : {
-        "start" : 1753913047033,
-        "stop" : 1753913047034,
+        "start" : 1753913365125,
+        "stop" : 1753913365126,
         "duration" : 1
       }
     } ]

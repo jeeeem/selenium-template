@@ -1,6 +1,6 @@
-2025-07-30 22:04:05 [DEBUG] com.example.BaseTest - Setting up log file: verifyPage_20250730_220405.log
-2025-07-30 22:04:05 [DEBUG] com.example.utils.AllureUtils - Screenshot captured and attached successfully in step: Failure Screenshot
-2025-07-30 22:04:05 [ERROR] com.example.listeners.ScreenshotOnFailureListener - Test 'verifyPage' failed with exception
+2025-07-30 22:09:24 [DEBUG] com.example.BaseTest - Setting up log file: verifyPage_20250730_220924.log
+2025-07-30 22:09:24 [DEBUG] com.example.utils.AllureUtils - Screenshot captured and attached successfully in step: Failure Screenshot
+2025-07-30 22:09:24 [ERROR] com.example.listeners.ScreenshotOnFailureListener - Test 'verifyPage' failed with exception
 java.lang.AssertionError: [Verify Page Title] 
 expected: "Swag1 Labs"
  but was: "Swag Labs"

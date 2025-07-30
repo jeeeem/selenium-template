@@ -1,40 +1,40 @@
 [ {
-  "uid" : "d50008c7ed79f856",
-  "name" : "loginIndependent",
-  "time" : {
-    "start" : 1753913046784,
-    "stop" : 1753913047028,
-    "duration" : 244
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b95d78fff23100d0",
+  "uid" : "d9f70816e7038428",
   "name" : "loginWithDependency",
   "time" : {
-    "start" : 1753913047033,
-    "stop" : 1753913047034,
+    "start" : 1753913365125,
+    "stop" : 1753913365126,
     "duration" : 1
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "e13fcb73afb993d6",
+  "uid" : "16d683408132ce10",
   "name" : "verifyPage",
   "time" : {
-    "start" : 1753913046641,
-    "stop" : 1753913046777,
-    "duration" : 136
+    "start" : 1753913364737,
+    "stop" : 1753913364871,
+    "duration" : 134
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "62cbce9ccfdfd9c0",
+  "uid" : "2ff2512d6e82c0b5",
+  "name" : "loginIndependent",
+  "time" : {
+    "start" : 1753913364877,
+    "stop" : 1753913365120,
+    "duration" : 243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b1524d32f6a5148",
   "name" : "verifyPage",
   "time" : {
-    "start" : 1753913045559,
-    "stop" : 1753913045729,
-    "duration" : 170
+    "start" : 1753913363737,
+    "stop" : 1753913363890,
+    "duration" : 153
   },
   "status" : "failed",
   "severity" : "normal"

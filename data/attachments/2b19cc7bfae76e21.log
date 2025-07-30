@@ -1,4 +1,0 @@
-2025-07-30 22:04:06 [DEBUG] com.example.BaseTest - Setting up log file: loginIndependent_20250730_220406.log
-2025-07-30 22:04:06 [DEBUG] com.example.decorator.WaitDecorator - Waiting for element to be visible: [[ChromeDriver: chrome on linux (373854b9c4a11cc659f6fe2065471743)] -> id: user-name]
-2025-07-30 22:04:06 [INFO] com.example.decorator.LoggingDecorator - Sending keys '[[ChromeDriver: chrome on linux (373854b9c4a11cc659f6fe2065471743)] -> id: user-name]' to: standard_user
-2025-07-30 22:04:07 [DEBUG] com.example.utils.AllureUtils - Screenshot captured and attached successfully in step: Filling credentials

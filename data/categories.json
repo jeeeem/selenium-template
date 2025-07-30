@@ -7,26 +7,26 @@
       "name" : "[Verify Page Title] \nexpected: \"Swag1 Labs\"\n but was: \"Swag Labs\"",
       "children" : [ {
         "name" : "verifyPage",
-        "uid" : "62cbce9ccfdfd9c0",
+        "uid" : "6b1524d32f6a5148",
         "parentUid" : "b04659f593e8a25f400eb1d8906e4751",
         "status" : "failed",
         "time" : {
-          "start" : 1753913045559,
-          "stop" : 1753913045729,
-          "duration" : 170
+          "start" : 1753913363737,
+          "stop" : 1753913363890,
+          "duration" : 153
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "verifyPage",
-        "uid" : "e13fcb73afb993d6",
+        "uid" : "16d683408132ce10",
         "parentUid" : "b04659f593e8a25f400eb1d8906e4751",
         "status" : "failed",
         "time" : {
-          "start" : 1753913046641,
-          "stop" : 1753913046777,
-          "duration" : 136
+          "start" : 1753913364737,
+          "stop" : 1753913364871,
+          "duration" : 134
         },
         "flaky" : false,
         "newFailed" : false,

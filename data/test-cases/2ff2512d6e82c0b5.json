@@ -1,12 +1,12 @@
 {
-  "uid" : "d50008c7ed79f856",
+  "uid" : "2ff2512d6e82c0b5",
   "name" : "loginIndependent",
   "fullName" : "com.example.LoginTest.loginIndependent",
   "historyId" : "b5a2ae1facd312a4fa7d02ce075de4a2",
   "time" : {
-    "start" : 1753913046784,
-    "stop" : 1753913047028,
-    "duration" : 244
+    "start" : 1753913364877,
+    "stop" : 1753913365120,
+    "duration" : 243
   },
   "description" : "Login Independent",
   "descriptionHtml" : "<p>Login Independent</p>\n",
@@ -14,51 +14,35 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "logSetup",
-    "time" : {
-      "start" : 1753913046780,
-      "stop" : 1753913046782,
-      "duration" : 2
-    },
-    "description" : "",
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1753913045826,
-      "stop" : 1753913046636,
-      "duration" : 810
+      "start" : 1753913363984,
+      "stop" : 1753913364732,
+      "duration" : 748
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ {
       "name" : "Navigate to saucedemo site",
       "time" : {
-        "start" : 1753913046239,
-        "stop" : 1753913046636,
-        "duration" : 397
+        "start" : 1753913364371,
+        "stop" : 1753913364731,
+        "duration" : 360
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Screenshot",
         "time" : {
-          "start" : 1753913046463,
-          "stop" : 1753913046636,
-          "duration" : 173
+          "start" : 1753913364605,
+          "stop" : 1753913364731,
+          "duration" : 126
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ {
-          "uid" : "3a97082fe7f15cfb",
+          "uid" : "52c9d4c7742e2c63",
           "name" : "Screenshot",
-          "source" : "3a97082fe7f15cfb.png",
+          "source" : "52c9d4c7742e2c63.png",
           "type" : "image/png",
           "size" : 31750
         } ],
@@ -81,6 +65,22 @@
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
+  }, {
+    "name" : "logSetup",
+    "time" : {
+      "start" : 1753913364874,
+      "stop" : 1753913364875,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   } ],
   "testStage" : {
     "description" : "Login Independent",
@@ -88,24 +88,24 @@
     "steps" : [ {
       "name" : "Logging in credentials",
       "time" : {
-        "start" : 1753913046799,
-        "stop" : 1753913047027,
-        "duration" : 228
+        "start" : 1753913364893,
+        "stop" : 1753913365119,
+        "duration" : 226
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Filling credentials",
         "time" : {
-          "start" : 1753913046914,
-          "stop" : 1753913047027,
-          "duration" : 113
+          "start" : 1753913364998,
+          "stop" : 1753913365119,
+          "duration" : 121
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ {
-          "uid" : "2192789940aab36d",
+          "uid" : "efb051231637746b",
           "name" : "Screenshot",
-          "source" : "2192789940aab36d.png",
+          "source" : "efb051231637746b.png",
           "type" : "image/png",
           "size" : 32305
         } ],
@@ -130,11 +130,33 @@
     "hasContent" : true
   },
   "afterStages" : [ {
+    "name" : "attachmentLog",
+    "time" : {
+      "start" : 1753913365122,
+      "stop" : 1753913365122,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e89d8e69b282277b",
+      "name" : "loginIndependent_20250730_220924",
+      "source" : "e89d8e69b282277b.log",
+      "type" : "text/plain",
+      "size" : 618
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
     "name" : "tearDown",
     "time" : {
-      "start" : 1753913047035,
-      "stop" : 1753913047112,
-      "duration" : 77
+      "start" : 1753913365126,
+      "stop" : 1753913365201,
+      "duration" : 75
     },
     "description" : "",
     "status" : "passed",
@@ -145,28 +167,6 @@
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : false
-  }, {
-    "name" : "attachmentLog",
-    "time" : {
-      "start" : 1753913047029,
-      "stop" : 1753913047029,
-      "duration" : 0
-    },
-    "description" : "",
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ {
-      "uid" : "2b19cc7bfae76e21",
-      "name" : "loginIndependent_20250730_220406",
-      "source" : "2b19cc7bfae76e21.log",
-      "type" : "text/plain",
-      "size" : 618
-    } ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
-    "hasContent" : true
   } ],
   "labels" : [ {
     "name" : "package",
@@ -191,7 +191,7 @@
     "value" : "pkrvmjbmru5nbw0"
   }, {
     "name" : "thread",
-    "value" : "3965@pkrvmjbmru5nbw0.main(1)"
+    "value" : "4001@pkrvmjbmru5nbw0.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -215,6 +215,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d50008c7ed79f856.json",
+  "source" : "2ff2512d6e82c0b5.json",
   "parameterValues" : [ ]
 }

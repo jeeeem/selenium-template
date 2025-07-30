@@ -1,12 +1,12 @@
 {
-  "uid" : "e13fcb73afb993d6",
+  "uid" : "16d683408132ce10",
   "name" : "verifyPage",
   "fullName" : "com.example.BaseTest.verifyPage",
   "historyId" : "16071a6bcbeb72520de5301fc6dc2b0b",
   "time" : {
-    "start" : 1753913046641,
-    "stop" : 1753913046777,
-    "duration" : 136
+    "start" : 1753913364737,
+    "stop" : 1753913364871,
+    "duration" : 134
   },
   "description" : "Verify Login title",
   "descriptionHtml" : "<p>Verify Login title</p>\n",
@@ -18,33 +18,33 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1753913045826,
-      "stop" : 1753913046636,
-      "duration" : 810
+      "start" : 1753913363984,
+      "stop" : 1753913364732,
+      "duration" : 748
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ {
       "name" : "Navigate to saucedemo site",
       "time" : {
-        "start" : 1753913046239,
-        "stop" : 1753913046636,
-        "duration" : 397
+        "start" : 1753913364371,
+        "stop" : 1753913364731,
+        "duration" : 360
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Screenshot",
         "time" : {
-          "start" : 1753913046463,
-          "stop" : 1753913046636,
-          "duration" : 173
+          "start" : 1753913364605,
+          "stop" : 1753913364731,
+          "duration" : 126
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ {
-          "uid" : "3a97082fe7f15cfb",
+          "uid" : "52c9d4c7742e2c63",
           "name" : "Screenshot",
-          "source" : "3a97082fe7f15cfb.png",
+          "source" : "52c9d4c7742e2c63.png",
           "type" : "image/png",
           "size" : 31750
         } ],
@@ -70,8 +70,8 @@
   }, {
     "name" : "logSetup",
     "time" : {
-      "start" : 1753913046637,
-      "stop" : 1753913046639,
+      "start" : 1753913364733,
+      "stop" : 1753913364735,
       "duration" : 2
     },
     "description" : "",
@@ -92,16 +92,16 @@
     "steps" : [ {
       "name" : "Failure Screenshot",
       "time" : {
-        "start" : 1753913046649,
-        "stop" : 1753913046776,
-        "duration" : 127
+        "start" : 1753913364745,
+        "stop" : 1753913364870,
+        "duration" : 125
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "7ae62c96ddb59bb9",
+        "uid" : "60c8293c2845fb91",
         "name" : "Screenshot",
-        "source" : "7ae62c96ddb59bb9.png",
+        "source" : "60c8293c2845fb91.png",
         "type" : "image/png",
         "size" : 31750
       } ],
@@ -112,9 +112,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "607f6ae16ef2b7c8",
+      "uid" : "e167224189ecf404",
       "name" : "Stacktrace",
-      "source" : "607f6ae16ef2b7c8.txt",
+      "source" : "e167224189ecf404.txt",
       "type" : "text/plain",
       "size" : 2667
     } ],
@@ -127,9 +127,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1753913047035,
-      "stop" : 1753913047112,
-      "duration" : 77
+      "start" : 1753913365126,
+      "stop" : 1753913365201,
+      "duration" : 75
     },
     "description" : "",
     "status" : "passed",
@@ -143,17 +143,17 @@
   }, {
     "name" : "attachmentLog",
     "time" : {
-      "start" : 1753913046779,
-      "stop" : 1753913046779,
-      "duration" : 0
+      "start" : 1753913364872,
+      "stop" : 1753913364873,
+      "duration" : 1
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "869b42736a686422",
-      "name" : "verifyPage_20250730_220406",
-      "source" : "869b42736a686422.log",
+      "uid" : "7ed3d78a6d7e4be8",
+      "name" : "verifyPage_20250730_220924",
+      "source" : "7ed3d78a6d7e4be8.log",
       "type" : "text/plain",
       "size" : 3024
     } ],
@@ -186,7 +186,7 @@
     "value" : "pkrvmjbmru5nbw0"
   }, {
     "name" : "thread",
-    "value" : "3965@pkrvmjbmru5nbw0.main(1)"
+    "value" : "4001@pkrvmjbmru5nbw0.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -211,6 +211,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "e13fcb73afb993d6.json",
+  "source" : "16d683408132ce10.json",
   "parameterValues" : [ ]
 }
