@@ -1,0 +1,41 @@
+[ {
+  "uid" : "d50008c7ed79f856",
+  "name" : "loginIndependent",
+  "time" : {
+    "start" : 1753913046784,
+    "stop" : 1753913047028,
+    "duration" : 244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b95d78fff23100d0",
+  "name" : "loginWithDependency",
+  "time" : {
+    "start" : 1753913047033,
+    "stop" : 1753913047034,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e13fcb73afb993d6",
+  "name" : "verifyPage",
+  "time" : {
+    "start" : 1753913046641,
+    "stop" : 1753913046777,
+    "duration" : 136
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "62cbce9ccfdfd9c0",
+  "name" : "verifyPage",
+  "time" : {
+    "start" : 1753913045559,
+    "stop" : 1753913045729,
+    "duration" : 170
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

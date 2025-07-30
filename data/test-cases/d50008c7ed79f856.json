@@ -1,0 +1,220 @@
+{
+  "uid" : "d50008c7ed79f856",
+  "name" : "loginIndependent",
+  "fullName" : "com.example.LoginTest.loginIndependent",
+  "historyId" : "b5a2ae1facd312a4fa7d02ce075de4a2",
+  "time" : {
+    "start" : 1753913046784,
+    "stop" : 1753913047028,
+    "duration" : 244
+  },
+  "description" : "Login Independent",
+  "descriptionHtml" : "<p>Login Independent</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "logSetup",
+    "time" : {
+      "start" : 1753913046780,
+      "stop" : 1753913046782,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1753913045826,
+      "stop" : 1753913046636,
+      "duration" : 810
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to saucedemo site",
+      "time" : {
+        "start" : 1753913046239,
+        "stop" : 1753913046636,
+        "duration" : 397
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Screenshot",
+        "time" : {
+          "start" : 1753913046463,
+          "stop" : 1753913046636,
+          "duration" : 173
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3a97082fe7f15cfb",
+          "name" : "Screenshot",
+          "source" : "3a97082fe7f15cfb.png",
+          "type" : "image/png",
+          "size" : 31750
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Login Independent",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Logging in credentials",
+      "time" : {
+        "start" : 1753913046799,
+        "stop" : 1753913047027,
+        "duration" : 228
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Filling credentials",
+        "time" : {
+          "start" : 1753913046914,
+          "stop" : 1753913047027,
+          "duration" : 113
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2192789940aab36d",
+          "name" : "Screenshot",
+          "source" : "2192789940aab36d.png",
+          "type" : "image/png",
+          "size" : 32305
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1753913047035,
+      "stop" : 1753913047112,
+      "duration" : 77
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "attachmentLog",
+    "time" : {
+      "start" : 1753913047029,
+      "stop" : 1753913047029,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2b19cc7bfae76e21",
+      "name" : "loginIndependent_20250730_220406",
+      "source" : "2b19cc7bfae76e21.log",
+      "type" : "text/plain",
+      "size" : 618
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginIndependent"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "pkrvmjbmru5nbw0"
+  }, {
+    "name" : "thread",
+    "value" : "3965@pkrvmjbmru5nbw0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d50008c7ed79f856.json",
+  "parameterValues" : [ ]
+}

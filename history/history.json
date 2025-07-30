@@ -1,0 +1,81 @@
+{
+  "16071a6bcbeb72520de5301fc6dc2b0b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e13fcb73afb993d6",
+      "status" : "failed",
+      "statusDetails" : "[Verify Page Title] \nexpected: \"Swag1 Labs\"\n but was: \"Swag Labs\"",
+      "time" : {
+        "start" : 1753913046641,
+        "stop" : 1753913046777,
+        "duration" : 136
+      }
+    } ]
+  },
+  "b5a2ae1facd312a4fa7d02ce075de4a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d50008c7ed79f856",
+      "status" : "passed",
+      "time" : {
+        "start" : 1753913046784,
+        "stop" : 1753913047028,
+        "duration" : 244
+      }
+    } ]
+  },
+  "e142fba8c9c72d0a16d08678273d1897" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62cbce9ccfdfd9c0",
+      "status" : "failed",
+      "statusDetails" : "[Verify Page Title] \nexpected: \"Swag1 Labs\"\n but was: \"Swag Labs\"",
+      "time" : {
+        "start" : 1753913045559,
+        "stop" : 1753913045729,
+        "duration" : 170
+      }
+    } ]
+  },
+  "cdda91fda22accf64aad37f558e70439" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b95d78fff23100d0",
+      "status" : "skipped",
+      "statusDetails" : "Method com.example.LoginTest.loginWithDependency() on instance com.example.LoginTest@698122b2 depends on not successfully finished methods \n[com.example.BaseTest.verifyPage() on instance com.example.LoginTest@698122b2\ncom.example.BaseTest.verifyPage() on instance com.example.BaseTest@2a2c13a8]",
+      "time" : {
+        "start" : 1753913047033,
+        "stop" : 1753913047034,
+        "duration" : 1
+      }
+    } ]
+  }
+}
